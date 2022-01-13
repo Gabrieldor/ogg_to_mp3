@@ -1,4 +1,5 @@
 #This program converts every ogg file in a folder to mp3
+#Needs ffmped,ffplay and ffprobe in order to work
 
 from pydub import AudioSegment
 from os import walk
